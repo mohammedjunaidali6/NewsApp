@@ -40,7 +40,10 @@
 }
 
 .logo small {
-  color: #007bff;
+    color: #007bff;
+    font-size: 31px;
+    position: relative;
+    bottom: 3px;
 }
 
 .search-bar {

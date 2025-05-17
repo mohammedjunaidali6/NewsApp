@@ -23,7 +23,6 @@ export default function Navbar() {
   return (
     <nav className="header">
       <div className="logo">
-        <h4>Rise of coding</h4>
         <small>News App</small>
       </div>
 
