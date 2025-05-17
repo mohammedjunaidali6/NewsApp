@@ -8,7 +8,7 @@ export const useNewsContext = () => useContext(NewsContext);
 
 export const NewsProvider = ({ children }) => {
   const API_KEY = "741960d72c5241d29602bf1ad933b904";
-  const BASE_URL = "http://newsapi.org/v2";
+  const BASE_URL = "https://newsapi.org/v2";
 
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
